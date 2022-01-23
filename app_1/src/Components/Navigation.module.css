@@ -1,0 +1,19 @@
+.header{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)),
+    url(./Image/cinema-desk.jpg);
+    margin-bottom: 0;
+    height: 100px;
+}
+.link{
+    display: inline-block;
+text-decoration: none;
+padding: 12px;
+font-weight: 500;
+color: #2a363b;
+font-size: 18px;
+}
+
+.activeLink {
+    /* composes: link; */
+    color: #2196f3;
+}
